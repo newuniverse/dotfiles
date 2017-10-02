@@ -1,0 +1,46 @@
+
+# tap repositories and their packages
+
+tap caskroom/cask
+cask caffeine
+cask google-chrome
+cask iterm2
+cask java
+cask visual-studio-code
+
+tap homebrew/core
+brew x264
+brew gdbm
+brew pcre
+brew lame
+brew ghq
+brew pyenv
+brew coreutils
+brew direnv
+brew xvid
+brew tig
+brew mysql@5.6
+brew mas
+brew readline
+brew peco
+brew ffmpeg
+brew rbenv
+brew openssl
+brew autoconf
+brew zsh
+brew ruby-build
+brew pkg-config
+
+tap rcmdnk/file
+brew brew-file
+
+# App Store applications
+appstore 443987910 1Password (6.8.2)
+appstore 405843582 Alfred (1.2)
+appstore 417375580 BetterSnapTool (1.7)
+appstore 682658836 GarageBand (10.2.0)
+appstore 408981434 iMovie (10.1.6)
+appstore 409183694 Keynote (7.1.1)
+appstore 409203825 Numbers (4.1.1)
+appstore 409201541 Pages (6.1.1)
+appstore 803453959 Slack (2.8.0)

@@ -1,1 +1,8 @@
-/Users/zhenyu/.gitconfig
+[core]
+	editor = code -w
+
+[alias]
+	co = checkout
+	s = status
+[user]
+
