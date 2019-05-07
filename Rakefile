@@ -15,7 +15,6 @@ task :deploy do
 end
 
 task :init do 
-    system("/usr/bin/ruby -e '$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)'")
     system("brew install argon/mas/mas")
     system("brew install rcmdnk/file/brew-file")
     system("brew file install")
