@@ -1,0 +1,4 @@
+# README
+
+## Setup
+`rake all "$(curl -L https://raw.githubusercontent.com/newuniverse/dotfiles/master/Rakefile)"`
