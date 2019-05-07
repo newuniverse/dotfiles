@@ -1,8 +1,16 @@
 task :all do
+    system('rake install')
     system('rake update')
-    system('rake clean')
-    system('rake deploy')
-    system('rake init')
+    puts 'rake clean'
+    # system('rake clean')
+    # system('rake deploy')
+    # system('rake init')
+end
+
+task :install do 
+    puts 'git clone dotfiles repository'
+    system('git clone https://github.com/newuniverse/dotfiles.git')
+    system('cd dotfiles')
 end
 
 task :deploy do
