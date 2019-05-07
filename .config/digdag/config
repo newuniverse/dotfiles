@@ -1,0 +1,2 @@
+client.http.endpoint = http://data-analysis.dev.kidsly.jp:65432
+params.webhookurl = https://hooks.slack.com/services/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
