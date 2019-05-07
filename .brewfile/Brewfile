@@ -12,6 +12,7 @@ cask microsoft-teams
 cask slack
 cask alfred
 cask authy
+cask dropbox
 
 tap homebrew/core
 brew x264
