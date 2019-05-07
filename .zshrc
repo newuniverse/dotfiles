@@ -79,3 +79,5 @@ function peco-cdr() {
 zle -N peco-cdr
 bindkey '^h' peco-cdr
 export PATH="$HOME/.embulk/bin:$PATH"
+
+PATH=$HOME/.nodebrew/current/bin:$PATH

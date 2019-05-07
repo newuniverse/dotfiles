@@ -1,8 +1,9 @@
 [core]
 	editor = code -w
-
 [alias]
 	co = checkout
 	s = status
 [user]
+	name = Zhenyu Niu
+	email = zhenyu_niu@r.recruit.co.jp
 
