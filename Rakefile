@@ -8,7 +8,7 @@ end
 task :deploy do
     puts 'Start to deploy dotfiles to home directory.'
     puts ''
-    (Dir.glob(".*", File::FNM_DOTMATCH) - %w[. ..]).each do |dotfile|
+    (Dir.glob(".*", File::FNM_DOTMATCH) - %w[. .. .git .DS_Store]).each do |dotfile|
         system("ln -sfnv #{Dir.pwd}/#{dotfile} #{Dir.home}/#{dotfile}")   
     end
 end
@@ -29,7 +29,7 @@ end
 task :clean do
     puts 'remove dotfiles from home directory.'
     puts ''
-    (Dir.glob(".*", File::FNM_DOTMATCH) - %w[. ..]).each do |dotfile|
+    (Dir.glob(".*", File::FNM_DOTMATCH) - %w[. .. .git .DS_Store]).each do |dotfile|
         system(
             "
             rm -vrf #{Dir.home}/#{dotfile}
