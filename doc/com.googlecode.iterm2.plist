@@ -11,13 +11,21 @@
 	<key>AppleWindowTabbingMode</key>
 	<string>manual</string>
 	<key>Default Bookmark Guid</key>
-	<string>82F116DD-DBC4-4F4E-B5F2-0082F867C97B</string>
+	<string>70A0F8FD-4F24-450D-ADF2-29E33D5DDF5A</string>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>32</integer>
+	<key>HotkeyCode</key>
+	<integer>49</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>524288</integer>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Dropbox</string>
+	<string>~/dotfiles/doc</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -51,20 +59,15 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>2570 516 620 392 1920 0 1920 1080 </string>
-	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 126 606 469 0 0 1440 877 </string>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>957 240 796 486 0 0 1920 1080 </string>
+	<string>275 379 918 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>294 -896 570 452 294 -900 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 425 570 452 0 0 1440 877 </string>
-	<key>NeverWarnAboutShortLivedSessions_82F116DD-DBC4-4F4E-B5F2-0082F867C97B</key>
-	<true/>
-	<key>NeverWarnAboutShortLivedSessions_82F116DD-DBC4-4F4E-B5F2-0082F867C97B_selection</key>
-	<integer>0</integer>
+	<string>0 0 1440 888 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -234,7 +237,7 @@
 			<key>Blur</key>
 			<false/>
 			<key>Blur Radius</key>
-			<real>2.7553259835025381</real>
+			<real>2.5424829473350257</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -292,35 +295,11 @@
 				<real>0.73333334922790527</real>
 			</dict>
 			<key>Guid</key>
-			<string>82F116DD-DBC4-4F4E-B5F2-0082F867C97B</string>
-			<key>Has Hotkey</key>
-			<true/>
+			<string>70A0F8FD-4F24-450D-ADF2-29E33D5DDF5A</string>
+			<key>Hide After Opening</key>
+			<false/>
 			<key>Horizontal Spacing</key>
 			<real>1</real>
-			<key>HotKey Activated By Modifier</key>
-			<false/>
-			<key>HotKey Alternate Shortcuts</key>
-			<array/>
-			<key>HotKey Characters</key>
-			<string> </string>
-			<key>HotKey Characters Ignoring Modifiers</key>
-			<string> </string>
-			<key>HotKey Key Code</key>
-			<integer>49</integer>
-			<key>HotKey Modifier Activation</key>
-			<integer>0</integer>
-			<key>HotKey Modifier Flags</key>
-			<integer>524288</integer>
-			<key>HotKey Window Animates</key>
-			<true/>
-			<key>HotKey Window AutoHides</key>
-			<true/>
-			<key>HotKey Window Dock Click Action</key>
-			<integer>0</integer>
-			<key>HotKey Window Floats</key>
-			<true/>
-			<key>HotKey Window Reopens On Activation</key>
-			<false/>
 			<key>Idle Code</key>
 			<integer>0</integer>
 			<key>Jobs to Ignore</key>
@@ -613,19 +592,6 @@
 					<string>[1;5F</string>
 				</dict>
 			</dict>
-			<key>Link Color</key>
-			<dict>
-				<key>Alpha Component</key>
-				<real>1</real>
-				<key>Blue Component</key>
-				<real>0.983154296875</real>
-				<key>Color Space</key>
-				<string>sRGB</string>
-				<key>Green Component</key>
-				<real>0.70832086891577395</real>
-				<key>Red Component</key>
-				<real>0.44514675065875053</real>
-			</dict>
 			<key>Mouse Reporting</key>
 			<true/>
 			<key>Name</key>
@@ -636,6 +602,10 @@
 			<true/>
 			<key>Normal Font</key>
 			<string>Monaco 12</string>
+			<key>Only The Default BG Color Uses Transparency</key>
+			<false/>
+			<key>Open Toolbelt</key>
+			<false/>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -643,7 +613,7 @@
 			<key>Right Option Key Sends</key>
 			<integer>0</integer>
 			<key>Rows</key>
-			<integer>25</integer>
+			<integer>51</integer>
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
@@ -672,8 +642,6 @@
 			<string></string>
 			<key>Silence Bell</key>
 			<false/>
-			<key>Space</key>
-			<integer>0</integer>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -681,9 +649,9 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.27957249365482234</real>
+			<real>0.21911088197969544</real>
 			<key>Unlimited Scrollback</key>
-			<true/>
+			<false/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -697,25 +665,21 @@
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
-			<integer>1</integer>
+			<integer>5</integer>
 			<key>Working Directory</key>
-			<string>/Users/zhenyu</string>
+			<string>/Users/01010347</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>B161FFF9-A057-4D56-A2BE-4CD74FD78B5F</string>
+	<string>CEA2C789-93A5-437C-A8B6-2121A8A9A568</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>528610325.402282</real>
-	<key>PasteTabToStringTabStopSize</key>
-	<integer>4</integer>
+	<real>579000716.42311203</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -750,30 +714,22 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/zhenyu/Dropbox</string>
+	<string>/Users/01010347/dotfiles/doc</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=58</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=86</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-04-23T01:24:39Z</date>
+	<date>2019-05-08T09:38:15Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>Secure Input</key>
-	<true/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
-	<key>findMode_iTerm</key>
-	<integer>0</integer>
 	<key>iTerm Version</key>
 	<string>3.2.9</string>
-	<key>kCPKSelectionViewPreferredModeKey</key>
-	<integer>0</integer>
-	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
-	<false/>
 </dict>
 </plist>
