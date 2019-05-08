@@ -1,9 +1,8 @@
 task :all do
     system('rake update')
-    puts 'rake clean'
-    # system('rake clean')
-    # system('rake deploy')
-    # system('rake init')
+    system('rake clean')
+    system('rake deploy')
+    system('rake init')
 end
 
 task :deploy do
