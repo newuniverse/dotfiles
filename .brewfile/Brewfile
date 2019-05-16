@@ -13,7 +13,8 @@ cask slack
 cask alfred
 cask authy
 cask dropbox
-casl google-japanese-ime
+cask google-japanese-ime
+cask gyazo
 
 tap homebrew/core
 brew x264

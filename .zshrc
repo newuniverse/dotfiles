@@ -17,9 +17,11 @@ export GOPATH=$HOME
 export PATH=$PATH:$GOPATH/bin
 
 # rbenv
-export PATH="~/.rbenv/shims:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init - zsh)"
 eval "$(direnv hook zsh)"
+
+export PATH="$HOME/.pyenv/shims:$PATH"
 eval "$(pyenv init -zsh)" 
 # cdr
 if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]]; then
