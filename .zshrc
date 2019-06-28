@@ -83,3 +83,6 @@ bindkey '^h' peco-cdr
 export PATH="$HOME/.embulk/bin:$PATH"
 
 PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# flutter
+export PATH="$HOME/.ghq/flutter/bin:$PATH"
