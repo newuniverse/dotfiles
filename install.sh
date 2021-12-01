@@ -3,4 +3,5 @@
 brew install git
 git clone https://github.com/newuniverse/dotfiles.git
 cd dotfiles
+source .zprofile
 rake all
