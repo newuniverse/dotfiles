@@ -12,6 +12,10 @@ cask authy
 cask dropbox
 cask google-japanese-ime
 cask google-cloud-sdk
+cask docker
+
+tap homebrew/cask-drivers
+cask logitech-options
 
 
 tap homebrew/core
@@ -34,9 +38,11 @@ brew autoconf
 brew ruby-build
 brew pkg-config
 brew awscli
+brew mas
 
 tap rcmdnk/file
+brew brew-file
 
 # App Store applications
-appstore 443987910 1Password (6.8.2)
-appstore 417375580 BetterSnapTool (1.7)
+# appstore 443987910 1Password (6.8.2)
+# appstore 417375580 BetterSnapTool (1.7)

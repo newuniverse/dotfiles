@@ -21,8 +21,9 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 eval "$(rbenv init - zsh)"
 eval "$(direnv hook zsh)"
 
-export PATH="$HOME/.pyenv/shims:$PATH"
-eval "$(pyenv init -zsh)" 
+#export PATH="$HOME/.pyenv/shims:$PATH"
+# eval "$(pyenv init -zsh)"
+ 
 # cdr
 if [[ -n $(echo ${^fpath}/chpwd_recent_dirs(N)) && -n $(echo ${^fpath}/cdr(N)) ]]; then
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
