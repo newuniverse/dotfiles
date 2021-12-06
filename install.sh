@@ -5,3 +5,4 @@ git clone https://github.com/newuniverse/dotfiles.git
 cd dotfiles
 source .zprofile
 rake all
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
