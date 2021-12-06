@@ -13,6 +13,7 @@ cask dropbox
 cask google-japanese-ime
 cask google-cloud-sdk
 cask docker
+cask battle-net
 
 tap homebrew/cask-drivers
 cask logitech-options
@@ -39,6 +40,7 @@ brew ruby-build
 brew pkg-config
 brew awscli
 brew mas
+brew tmux
 
 tap rcmdnk/file
 brew brew-file

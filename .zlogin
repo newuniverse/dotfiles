@@ -21,3 +21,8 @@ if (( $+commands[fortune] )); then
     print
   fi
 fi
+
+# tmux
+if [ $SHLVL = 1 ]; then
+  tmux
+fi
